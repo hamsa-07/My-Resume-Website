@@ -1,7 +1,19 @@
+*{
+    background-color: rgb(245, 245, 245);
+}
 
+.res{
+    border: 3px solid black;
+    margin: 30px;
+}
+.info{
+    font-size: 21px;
+    margin-left: 320px;
+    font-weight: bold;
+}
 img{
     height: 100px;
-    width: 80px;
+    width: 100px;
     border-radius: 50px;
     margin-left: 600px;
     margin-top: 20px;
@@ -12,16 +24,33 @@ h1{
 }
 
 h2{
-    margin-left: 350px;
-    color: blue;
+    margin-left: 300px;
+    color: rgb(56, 56, 67);
 }
 
 h3{
-    color: royalblue;
+    color: rgb(7, 47, 168);
     text-decoration: underline;
     padding-left: 30px;
 }
 
 p{
     padding-left: 20px;
+}
+
+#sum{
+    padding: 0 60px;
+    font-size: 18px;
+}
+
+#sub{
+    font-weight: bold;
+}
+
+#date{
+    font-style: italic;
+}
+
+#detail{
+    padding-right: 50px;
 }
